@@ -9,7 +9,7 @@ This C# project uses <a href="https://www.vintasoft.com/vsimaging-dotnet-index.h
 
 
 ## Screenshot
-<img src="vintasoft-raster-grid-image-editor-demo.png" alt="VintaSoft Raster Grid Image Editor Demo">
+<img src="vintasoft-raster-grid-image-editor-demo.png" title="VintaSoft Raster Grid Image Editor Demo">
 
 
 ## Usage
