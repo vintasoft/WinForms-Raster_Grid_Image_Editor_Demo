@@ -153,7 +153,7 @@ namespace RasterGridImageEditorDemo
         #region 'File' menu
 
         /// <summary>
-        /// Handles the Click event of CreateToolStripMenuItem object.
+        /// Handles the Click event of createToolStripMenuItem object.
         /// </summary>
         private void createToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -227,7 +227,7 @@ namespace RasterGridImageEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of OpenToolStripMenuItem object.
+        /// Handles the Click event of openToolStripMenuItem object.
         /// </summary>
         private void openToolStripMenuItem_Click(object sender, System.EventArgs e)
         {
@@ -251,7 +251,7 @@ namespace RasterGridImageEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of SaveChangesToolStripMenuItem object.
+        /// Handles the Click event of saveChangesToolStripMenuItem object.
         /// </summary>
         private void saveChangesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -266,7 +266,7 @@ namespace RasterGridImageEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of SaveToolStripMenuItem object.
+        /// Handles the Click event of saveToolStripMenuItem object.
         /// </summary>
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -298,7 +298,7 @@ namespace RasterGridImageEditorDemo
         }
 
         /// <summary>
-        /// Handles the Click event of CloseToolStripMenuItem object.
+        /// Handles the Click event of closeToolStripMenuItem object.
         /// </summary>
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -314,7 +314,7 @@ namespace RasterGridImageEditorDemo
 
 
         /// <summary>
-        /// Handles the Click event of ExitToolStripMenuItem object.
+        /// Handles the Click event of exitToolStripMenuItem object.
         /// </summary>
         private void exitToolStripMenuItem_Click(object sender, System.EventArgs e)
         {
@@ -330,7 +330,7 @@ namespace RasterGridImageEditorDemo
         #region 'Edit' menu
 
         /// <summary>
-        /// Handles the Click event of UndoAllChangesToolStripMenuItem object.
+        /// Handles the Click event of undoAllChangesToolStripMenuItem object.
         /// </summary>
         private void undoAllChangesToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -355,7 +355,7 @@ namespace RasterGridImageEditorDemo
         #region 'View' menu
 
         /// <summary>
-        /// Handles the Click event of ImageViewerSettingsToolStripMenuItem object.
+        /// Handles the Click event of imageViewerSettingsToolStripMenuItem object.
         /// </summary>
         private void imageViewerSettingsToolStripMenuItem_Click(object sender, System.EventArgs e)
         {
@@ -372,7 +372,7 @@ namespace RasterGridImageEditorDemo
         #region 'About' menu
 
         /// <summary>
-        /// Handles the Click event of AboutToolStripMenuItem object.
+        /// Handles the Click event of aboutToolStripMenuItem object.
         /// </summary>
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
@@ -412,7 +412,7 @@ namespace RasterGridImageEditorDemo
         }
 
         /// <summary>
-        /// Handles the FocusedIndexChanged event of ImageViewer1 object.
+        /// Handles the FocusedIndexChanged event of imageViewer1 object.
         /// </summary>
         private void imageViewer1_FocusedIndexChanged(object sender, FocusedIndexChangedEventArgs e)
         {
@@ -425,7 +425,7 @@ namespace RasterGridImageEditorDemo
 
 
         /// <summary>
-        /// Handles the CheckedChanged event of EnableRasterGridVisualToolCheckBox object.
+        /// Handles the CheckedChanged event of enableRasterGridVisualToolCheckBox object.
         /// </summary>
         private void enableRasterGridVisualToolCheckBox_CheckedChanged(object sender, EventArgs e)
         {
