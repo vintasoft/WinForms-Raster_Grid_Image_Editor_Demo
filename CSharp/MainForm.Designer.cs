@@ -1,4 +1,4 @@
-namespace RasterGridImageEditorDemo
+﻿namespace RasterGridImageEditorDemo
 {
     partial class MainForm
     {
@@ -55,7 +55,7 @@ namespace RasterGridImageEditorDemo
             this.imagesEncodingProgressBar = new System.Windows.Forms.ToolStripProgressBar();
             this.labelImageInfo = new System.Windows.Forms.ToolStripStatusLabel();
             this.saveImageFileDialog = new System.Windows.Forms.SaveFileDialog();
-            this.imageViewerToolstrip1 = new DemosCommonCode.Imaging.ImageViewerToolStrip();
+            this.imageViewerToolstrip1 = new CommonCode.Imaging.ImageViewerToolStrip();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.imageRendererInfoGroupBox = new System.Windows.Forms.GroupBox();
             this.usedCacheSizeValueLabel = new System.Windows.Forms.Label();
@@ -688,7 +688,7 @@ namespace RasterGridImageEditorDemo
         private System.Windows.Forms.MenuStrip mainMenu;
         private System.Windows.Forms.ToolStripMenuItem fileToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private DemosCommonCode.Imaging.ImageViewerToolStrip imageViewerToolstrip1;
+        private CommonCode.Imaging.ImageViewerToolStrip imageViewerToolstrip1;
         private System.Windows.Forms.ToolStripMenuItem openToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem viewToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem imageViewerSettingsToolStripMenuItem;

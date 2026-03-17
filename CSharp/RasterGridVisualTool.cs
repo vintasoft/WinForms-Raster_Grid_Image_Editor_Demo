@@ -7,9 +7,9 @@ using Vintasoft.Imaging.Codecs.ImageFiles;
 using Vintasoft.Imaging.ImageProcessing;
 using Vintasoft.Imaging.UI.VisualTools;
 
-using DemosCommonCode;
-using DemosCommonCode.Imaging.Codecs;
-using DemosCommonCode.Imaging;
+using CommonCode;
+using CommonCode.Imaging.Codecs;
+using CommonCode.Imaging;
 
 namespace RasterGridImageEditorDemo
 {
