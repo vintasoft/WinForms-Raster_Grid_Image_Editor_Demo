@@ -51,6 +51,14 @@ namespace RasterGridImageEditorDemo
         #region Constructors
 
         /// <summary>
+        /// Initializes the <see cref="MainForm"/> class.
+        /// </summary>
+        static MainForm()
+        {
+            Jpeg2000AssemblyLoader.Load();
+        }
+
+        /// <summary>
         /// Initializes a new instance of the <see cref="MainForm"/> class.
         /// </summary>
         public MainForm()
@@ -59,8 +67,6 @@ namespace RasterGridImageEditorDemo
             Vintasoft.Imaging.ImagingGlobalSettings.Register("REG_USER", "REG_EMAIL", "EXPIRATION_DATE", "REG_CODE");
 
             InitializeComponent();
-
-            Jpeg2000AssemblyLoader.Load();
 
             // create visual tool for image editing
             RasterGridVisualTool rasterGridVisualTool = new RasterGridVisualTool();
